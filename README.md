@@ -30,7 +30,7 @@ library(rnaturalearth)
 library(rnaturalearthdata)
 
 #set up API key to acces the Google geocoding service
-register_google(key ="AIzaSyDuUOPyEGmFroTmJtNCv5VLXM3YPeloagQ") 
+register_google(key ="[insert your own google cloud API key here :) ]") 
 
 #reading flight data 
 fd <- read_csv("./data_sets/2017_Flight_data.csv")
