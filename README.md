@@ -1,6 +1,8 @@
 # delayed-flights
 Will my flight be delayed? Built with R (the statistical programing language), this app predicts the delay of a flight between any two US cities.
 
+<i>A note about the data: the data used in this project is publicly available from the [Bureau of Transportation Statistics website](https://www.bts.gov/topics/airlines-airports-and-aviation). I used only data from the first month of January 2017 because I didn't have the capacity to work with larger CSV files. However, this code is totally scalable to work with data from a full year, or even multiple years to give more accurate predictions. </i>
+
 ## Introduction
 
 This markdown file has two purposes: (1) creating a useful dataframe
