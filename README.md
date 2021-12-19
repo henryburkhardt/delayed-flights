@@ -13,6 +13,11 @@ markdown file and returns their results to a Shiny App.
 variables and functions that are defined in this markdown document. All
 the chunks in this markdown must be run before app.R will run properly.*
 
+The user interface ([app.R](./app.R)) looks like this:
+![](plots/UiExample.jpg)
+
+If the code below is not of interest, be sure to at least check out the [super cool visualizations](#ggplot-object-setup) generated from it!
+
 ``` r
 #installing packages
 library(readr)
@@ -243,7 +248,7 @@ destPlot <- function(start, end){
 destPlot("Minneapolis, MN","Denver, CO")
 ```
 
-![](2017_Flight_data_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](./plots/destPlotEx.png)
 
 ## Creating Visualizations
 
@@ -268,7 +273,7 @@ map + geom_segment(
 )
 ```
 
-![](2017_Flight_data_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](./plots/heatMap1.png)
 
 This last map is of the most popular flights in the US, the transparency
 of the line being determined by `qauntity` or the number of flights in a
@@ -284,4 +289,4 @@ map + geom_segment(
 )
 ```
 
-![](2017_Flight_data_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](./plots/heatMap2.png)
